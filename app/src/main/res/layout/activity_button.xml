@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".ButtonActivity">
+
+    <Button
+        android:id="@+id/ben_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="#0066FF"
+        android:background="#FF0000"
+        android:text="按钮1"/>
+
+    <Button
+        android:id="@+id/ben_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="#0066FF"
+        android:background="@drawable/bgbtn2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ben_1"
+        android:text="按钮2"/>
+
+    <Button
+        android:id="@+id/ben_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="#0066FF"
+        android:background="@drawable/babtn3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/ben_2"
+        android:text="按钮3"/>
+
+    <Button
+        android:id="@+id/ben_4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="#0066FF"
+        android:background="@drawable/bgbtn4"
+        android:layout_marginTop="10dp"
+        android:onClick="showToast"
+        android:layout_below="@id/ben_3"
+        android:text="按钮4"/>
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="文字"
+        android:layout_below="@id/ben_4"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="#90EE90"/>
+
+
+</RelativeLayout>

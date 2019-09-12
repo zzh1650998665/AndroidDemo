@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestView</string>
+    <string name="textView">页面跳转</string>
+</resources>

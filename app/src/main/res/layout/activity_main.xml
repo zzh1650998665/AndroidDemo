@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ben_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="文字and图片"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/ben_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一堆按钮Button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/ben_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录Login"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/ben_redioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单选按钮RedioBtn"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/ben_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="复选框CheckBox"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/imageViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片的展示Image"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="列表展示List"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="表格展示Grid"
+            android:textAllCaps="false" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="表格展示ScrollView"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="表格展示ScrollView"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="表格展示ScrollView"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+</ScrollView>

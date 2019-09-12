@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewActivity">
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="210dp"
+        android:layout_height="140dp"
+        android:background="#FF9900"
+        android:src="@drawable/j"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="210dp"
+        android:layout_height="140dp"
+        android:background="#FF9900"
+        android:src="@drawable/j"
+        android:layout_below="@id/img_1"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"/>
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="210dp"
+        android:layout_height="140dp"
+        android:background="#FF9900"
+        android:src="@drawable/j"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/img_2"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/img_4"
+        android:layout_width="210dp"
+        android:layout_height="140dp"
+        android:background="#FF9900"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/img_3"
+        android:scaleType="fitCenter"/>
+
+
+
+</RelativeLayout>
